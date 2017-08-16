@@ -1,2 +1,2 @@
 # APA
-Atividade de APA
+Atividades passadas pelo professor da diciplina.
