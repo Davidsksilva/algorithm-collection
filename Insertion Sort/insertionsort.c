@@ -29,7 +29,9 @@ int array[5]={1,3,2,7,5};
 
 int main()
 {
+	printf("Array desordenado: \n");
 	printArray(array,5);
+	printf("Array ordenado: \n");
 	insertionSort(array,5);
 	printArray(array,5);
 	
