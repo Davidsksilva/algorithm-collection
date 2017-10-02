@@ -126,7 +126,7 @@ struct vertex returnVertex( int id, struct vertex arr[] , int n)
   }
    return arr[id];
 }
-void prim(int** arr , int n , int r)
+void djikstra(int** arr , int n , int r)
 {
   struct vertex V[n];
 
