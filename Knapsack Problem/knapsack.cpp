@@ -44,8 +44,6 @@ typedef struct Table{
   int g;
   bool x;
 }table;
-// A utility function that returns maximum of two integers
-int max(int a, int b) { return (a > b)? a : b; }
 
 // Returns the maximum value that can be put in a knapsack of capacity W
 int knapSack(const struct Knapsack* knapsack)
@@ -54,8 +52,6 @@ int knapSack(const struct Knapsack* knapsack)
    Table** K  = new Table*[knapsack->M_+1];
    for (int i = 0; i < knapsack->M_+1; ++i)
     K[i] = new Table[knapsack->n_+1];
-  // Table K[knapsack->M_+1][knapsack->n_+1];
-   // Build table K[][] in bottom up manner
    for (i = knapsack->n_; i >= 0 ; i--)
    {
        for (w = 0; w <=knapsack->M_ ; w++)
