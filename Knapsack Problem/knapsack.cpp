@@ -45,7 +45,6 @@ typedef struct Table{
   bool x;
 }table;
 
-// Returns the maximum value that can be put in a knapsack of capacity W
 int knapSack(const struct Knapsack* knapsack)
 {
    int i, w;
