@@ -1,3 +1,3 @@
 # Collection of algorithms
 
-Still gotta write something here
+Still gonna write something here. x)
