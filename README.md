@@ -1,3 +1,3 @@
-# Collection of algorithms
+# Collection of Algorithms
 
-Still gonna write something here. x)
+Unfinished REAME.
