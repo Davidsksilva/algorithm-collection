@@ -1,3 +1,3 @@
-# APA
-Aluno: David Simon Kastle Silva
-Matrícula: 1151945
+# Collection of algorithms
+
+Still gotta write something here
