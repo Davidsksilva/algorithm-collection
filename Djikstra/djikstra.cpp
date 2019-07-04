@@ -171,9 +171,9 @@ void djikstra(int** arr , int n , int r)
 
 }
 /*
-PAI(i) = i/2
-ESQUERDO(i) = 2i
-DIREITO = 2i+1
+FATHER(i) = i/2
+LEFT(i) = 2i
+RIGHT = 2i+1
 */
 void printArray(int arr[], int n)
 {
@@ -190,13 +190,6 @@ int main()
   int n = getMatrixSize("teste.txt");
   int** arr;
   arr = readMatrix(n ,"teste.txt");
-  prim(arr , n , 0);
-  /*n=5;
-  heap(key,n);
-  printArray(key,n);
-  cout<<extractMin(key,&n)<<endl;
-  printArray(key,n);*/
-
-
+  djikstra(arr , n , 0);
   return 0;
 }
